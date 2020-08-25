@@ -25,20 +25,24 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" style="background: transparent !important;" href="#nombre">Inicio</a>
+          <a class="nav-link" style="background: transparent !important;" href="#nombre-container">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="background: transparent !important;" href="#sobre-mi-fondo">Sobre Mí</a>
-        </li>
-        <li class="nav-item">
-          <a data-scroll class="nav-link" style="background: transparent !important;" href="#Skills">Skills</a>
+          <a class="nav-link" style="background: transparent !important;" href="#sobre-mi-container">Sobre Mí</a>
         </li>
         <li class="nav-item">
           <a data-scroll class="nav-link" style="background: transparent !important;"
-            href="#Proyectos-graficos-fondo">Proyectos Gráficos</a>
+            href="#skills-container">Skills</a>
         </li>
         <li class="nav-item">
-          <a data-scroll class="nav-link" style="background: transparent !important;" href="#Proyectos-video">Proyectos
+          <a class="nav-link" style="background: transparent !important;" href="#mockup-container">Mockups</a>
+        </li>
+        <li class="nav-item">
+          <a data-scroll class="nav-link" style="background: transparent !important;" href="#P-G-container">Proyectos
+            Gráficos</a>
+        </li>
+        <li class="nav-item">
+          <a data-scroll class="nav-link" style="background: transparent !important;" href="#P-V-container">Proyectos
             de Video</a>
         </li>
         <li class="nav-item">
@@ -49,164 +53,236 @@
     </div>
   </nav>
 
-  <!-- Imagen Logo ========================================================================================================== -->
-
-  <div id="nombre" class="container" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="1500">
-    <img class="img-fluid" src="CSS/Images/nombre-fondo.png" alt="">
-  </div>
-
+  <!-- Imagen Logo========================================================================================================== -->
+  <section id="nombre-container">
+    <div class="container-fluid">
+      <h1 id="nombre-titulo">
+        Jonathan Díaz
+      </h1>
+    </div>
+    <div id="nombre" class="container">
+      <img class="img-fluid" width="70%" src="CSS/Images/head_background_FINAL.png" alt="">
+    </div>
+  </section>
   <!-- Sobre mí =================================================================================================================-->
-  <div id="sobre-mi-fondo" class="card" data-aos="fade-up" data-aos-duration="1500">
-    <img class="card-img-top" src="CSS/Images/foto-perfil.jpg">
-  </div>
-  <div class="card-body sobre-mi-descripcion" data-aos="fade-up" data-aos-duration="1500">
-    <p class="card-text">Actor profesional y diseñador gráfico, autodidacta y proactivo, manejo de diferentes tipos de
-      herramientas, tanto en el ámbito tecnológico; programación y diseño gráfico, como en el comunicacional;
-      capacitación y relatoría, enfocado al arte, la creatividad y el desarrollo de habilidades interpersonales.</p>
-  </div>
-
+  <section id="sobre-mi-container" data-aos="fade-up" data-aos-duration="1500">
+    <div id="Sobre_mi_titulo">
+      <h1>
+        Sobre mí
+      </h1>
+    </div>
+    <div id="sobre-mi-fondo" class="card" data-aos="fade-up" data-aos-duration="1500">
+      <img class="card-img-top" src="CSS/Images/foto-perfil.jpg">
+    </div>
+    <div class="card-body sobre-mi-descripcion" data-aos="fade-up" data-aos-duration="1500">
+      <p class="card-text">Actor, desarrollador Android y diseñador gráfico, autodidacta y proactivo, manejo de diferentes tipos de
+        herramientas, tanto en el ámbito tecnológico; programación y diseño gráfico, como en el comunicacional;
+        capacitación y relatoría, enfocado al arte, la creatividad y el desarrollo de habilidades interpersonales.</p>
+    </div>
+  </section>
   <!-- Skills ================================================================================================================-->
-  <div id="Skills" class="Skills container" data-aos="fade-up" data-aos-duration="1500">
-    <img src="CSS/Images/skills-texto.png" style="margin-left: auto; margin-right: auto; margin-top: 10%;" alt="">
-  </div>
-  <section id="skills-fondo" class="container">
-    <ul class="lista-skills skills-xs">
-      <li data-aos="fade-up" data-aos-duration="500"><img class="img-thumbnail imgS" src="CSS/Images/Photoshop.png"
-          alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"><img class="img-thumbnail imgS"
-          src="CSS/Images/After-Effects.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="400"><img class="img-thumbnail imgS"
-          src="CSS/Images/Premiere.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="600"><img class="img-thumbnail imgS"
-          src="CSS/Images/Audition.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="800"><img class="img-thumbnail imgS"
-          src="CSS/Images/Illustrator.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="1000"><img class="img-thumbnail imgS"
-          src="CSS/Images/HTML5-img.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200"><img class="img-thumbnail imgS"
-          src="CSS/Images/CSS3-img.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="1400"><img class="img-thumbnail imgS"
-          src="CSS/Images/logo-bootstrap.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="1600"><img class="img-thumbnail imgS"
-          src="CSS/Images/logo-invision.png" alt=""></li>
-    </ul>
-    <ul class="lista-skills skills-m">
-      <li data-aos="fade-up" data-aos-duration="500"><img class="img-thumbnail imgS" src="CSS/Images/Photoshop.png"
-          alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="100"><img class="img-thumbnail imgS"
-          src="CSS/Images/After-Effects.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"><img class="img-thumbnail imgS"
-          src="CSS/Images/Premiere.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="300"><img class="img-thumbnail imgS"
-          src="CSS/Images/Audition.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="400"><img class="img-thumbnail imgS"
-          src="CSS/Images/Illustrator.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="500"><img class="img-thumbnail imgS"
-          src="CSS/Images/HTML5-img.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="600"><img class="img-thumbnail imgS"
-          src="CSS/Images/CSS3-img.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="700"><img class="img-thumbnail imgS"
-          src="CSS/Images/logo-bootstrap.png" alt=""></li>
-      <li data-aos="fade-up" data-aos-duration="500" data-aos-delay=""><img class="img-thumbnail imgS"
-          src="CSS/Images/logo-invision.png" alt=""></li>
-    </ul>
+  <section id="skills-container" data-aos="fade-up" data-aos-duration="1500">
+    <div id="Skills_titulo">
+      <h1>
+        Skills
+      </h1>
+    </div>
+    <div id="skills-fondo" class="container">
+      <ul class="lista-skills skills-xs">
+        <li data-aos="fade-up" data-aos-duration="500"><img class="img-thumbnail imgS" src="CSS/Images/Photoshop.png"
+            alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"><img class="img-thumbnail imgS"
+            src="CSS/Images/After-Effects.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="400"><img class="img-thumbnail imgS"
+            src="CSS/Images/Premiere.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="600"><img class="img-thumbnail imgS"
+            src="CSS/Images/Audition.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="800"><img class="img-thumbnail imgS"
+            src="CSS/Images/Illustrator.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="1000"><img class="img-thumbnail imgS"
+            src="CSS/Images/HTML5-img.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200"><img class="img-thumbnail imgS"
+            src="CSS/Images/CSS3-img.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="1400"><img class="img-thumbnail imgS"
+            src="CSS/Images/logo-bootstrap.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="1600"><img class="img-thumbnail imgS"
+            src="CSS/Images/Android_Studio.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="1800"><img class="img-thumbnail imgS"
+            src="CSS/Images/Kotlin.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="2000"><img class="img-thumbnail imgS"
+            src="CSS/Images/java.png" alt=""></li>
+      </ul>
+      <ul class="lista-skills skills-m" data-aos="fade-up" data-aos-duration="1500">
+        <li data-aos="fade-up" data-aos-duration="500"><img class="img-thumbnail imgS" src="CSS/Images/Photoshop.png"
+            alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="100"><img class="img-thumbnail imgS"
+            src="CSS/Images/After-Effects.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"><img class="img-thumbnail imgS"
+            src="CSS/Images/Premiere.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="100"><img class="img-thumbnail imgS"
+            src="CSS/Images/Audition.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="400"><img class="img-thumbnail imgS"
+            src="CSS/Images/Illustrator.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="500"><img class="img-thumbnail imgS"
+            src="CSS/Images/HTML5-img.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="600"><img class="img-thumbnail imgS"
+            src="CSS/Images/CSS3-img.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="700"><img class="img-thumbnail imgS"
+            src="CSS/Images/logo-bootstrap.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="800"><img class="img-thumbnail imgS"
+            src="CSS/Images/Android_Studio.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="900"><img class="img-thumbnail imgS"
+            src="CSS/Images/Kotlin.png" alt=""></li>
+        <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="1000"><img class="img-thumbnail imgS"
+            src="CSS/Images/java.png" alt=""></li>
+      </ul>
+    </div>
+    </div>
+  </section>
+  <!-- Mockups===================================================================================================== -->
+  <section id="mockup-container" data-aos="fade-up" data-aos-duration="1500">
+    <div id="mockup_titulo">
+      <h1>Mockups</h1>
+    </div>
+    <div class="container">
+      <div class="card-deck container card-mockup">
+        <div class="card mb-4">
+          <!--Card image-->
+          <div class="view overlay">
+            <a href="Mockups/Mockup-vi.html">
+              <img class="card-img-top" src="Mockups/Mockup_voto_inteligente/VI_01.png" alt="Card image cap">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Voto Inteligente</h4>
+            <!--Text-->
+            <p class="card-text">"Voto Inteligente" es una App que automatiza los procesos de
+              votación, tanto para municipalidades, como para empresas y/o particulares. El proyecto está diseñado en
+              Android Studio con Java, Kotlin, y Retrofit.</p>
+          </div>
+        </div>
+        <div class="card mb-4">
+          <!--Card image-->
+          <div class="view overlay">
+            <a href="Mockups/Mockup-pololyte.html">
+              <img class="card-img-top" src="Mockups/Mockup_pololyte/Mockup_pololyte_01.png" alt="Card image cap">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Pololyte</h4>
+            <!--Text-->
+            <p class="card-text">"Pololyte" es una plataforma para que personas cercanaas a una
+              ubicación adquieran servicios de orientados a oficios; (gasfitería, electricidad, pintura, etc). El
+              proyecto
+              está diseñado en Android Studio con Java, Kotlin, y Retrofit.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Proyectos Gráficos ======================================================================================================-->
-
-  <div id="Proyectos-graficos-fondo" style="margin-left: auto; margin-right: auto; text-align: center" class="container"
-    data-aos="fade-up" data-aos-duration="1500">
-    <img class="proyectos-graficos" style="margin-left: auto; margin-right: auto;"
-      src="CSS/Images/Proyectos-graficos-texto.png">
-  </div>
-
-  <div class="Proyectos-graficos container" data-aos="fade-up" data-aos-duration="1500">
-    <div id="proyectos-graficos-container" class="container">
-      <img class="Graficas img-fluid" src="CSS/Images/despertar.jpg" style="display:none">
-      <img class="Graficas img-fluid" src="CSS/Images/corre.jpg">
-      <img class="Graficas img-fluid" src="CSS/Images/phc.jpg" style="display:none">
-      <img class="Graficas img-fluid" src="CSS/Images/MLE.jpg" style="display:none">
-      <img class="Graficas img-fluid" src="CSS/Images/PDA.jpg" style="display:none">
+  <section id="P-G-container" data-aos="fade-up" data-aos-duration="1500">
+    <div id="Proyectos_graficos_titulo" data-aos="fade-up" data-aos-duration="1500">
+      <h1>
+        Proyectos Gráficos
+      </h1>
     </div>
-    <br>
-    <div class="w3-row-padding w3-section Caps-graficas">
-      <div class="w3-col s4">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="CSS/Images/despertar.jpg"
-          style="max-width:100%; cursor:pointer" onclick="currentDiv(1)">
+    <div class="Proyectos-graficos container" data-aos="fade-up" data-aos-duration="1500">
+      <div id="proyectos-graficos-container" class="container">
+        <img class="Graficas img-fluid" src="CSS/Images/despertar.jpg" style="display:none">
+        <img class="Graficas img-fluid" src="CSS/Images/corre.jpg">
+        <img class="Graficas img-fluid" src="CSS/Images/phc.jpg" style="display:none">
+        <img class="Graficas img-fluid" src="CSS/Images/MLE.jpg" style="display:none">
+        <img class="Graficas img-fluid" src="CSS/Images/PDA.jpg" style="display:none">
       </div>
-      <div class="w3-col s4">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="CSS/Images/corre.jpg" style="width:80%; cursor:pointer"
-          onclick="currentDiv(2)">
-      </div>
-      <div class="w3-col s4">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="CSS/Images/phc.jpg" style="width:80%; cursor:pointer"
-          onclick="currentDiv(3)">
-      </div>
-      <div class="w3-col s4">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="CSS/Images/MLE.jpg" style="width:80%; cursor:pointer"
-          onclick="currentDiv(4)">
-      </div>
-
-      <div class="w3-col s4">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="CSS/Images/PDA.jpg" style="width:80%; cursor:pointer"
-          onclick="currentDiv(5)">
-      </div>
-    </div>
-  </div>
-
-  <!-- Proyectos video ======================================================================================================== -->
-  <div id="Proyectos-video" class="Proyectos-video" data-aos="fade-up" data-aos-duration="1500"
-    style="margin-left: auto; margin-right: auto; text-align: center">
-    <img class="img-fluid" src="CSS/Images/Proyectos-Video-texto.png"
-      style="margin: 10% 0%; margin-left: auto; margin-right: auto;" alt="">
-  </div>
-  <section id="Proyectos-video-fondo" class="container" data-aos="fade-up" data-aos-duration="1500">
-    <div class="card-deck">
-      <div class="card video-img">
-        <a href="Video/Catastro-fe.html" target="blank"><img class="card-img-top"
-            src="CSS/Images/Catastrofe-img-play.png"></a>
-        <div class="card-body">
-          <h1>Catastro-fe</h1>
-          <p class="card-text">"Catastro-fe" es el video clip oficial del tercer single de "manifestación
-            Verbal";
-            duo de RAP de Santiago.</p>
+      <br>
+      <div class="w3-row-padding w3-section Caps-graficas">
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="CSS/Images/despertar.jpg"
+            style="max-width:100%; cursor:pointer" onclick="currentDiv(1)">
         </div>
-      </div>
-      <div class="card video-img">
-        <a href="Video/El-Despertar.html" target="blank"><img class="card-img-top"
-            src="CSS/Images/el-despertarimg-play.png"></a>
-        <div class="card-body">
-          <h1>El Despertar</h1>
-          <p class="card-text">Trailer oficial del montaje teatral llamado "El Despertar" cuya temática
-            enfatiza la
-            gestión de los
-            recursos y una crítica hacia el consumismo.</p>
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="CSS/Images/corre.jpg" style="width:80%; cursor:pointer"
+            onclick="currentDiv(2)">
+        </div>
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="CSS/Images/phc.jpg" style="width:80%; cursor:pointer"
+            onclick="currentDiv(3)">
+        </div>
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="CSS/Images/MLE.jpg" style="width:80%; cursor:pointer"
+            onclick="currentDiv(4)">
+        </div>
+
+        <div class="w3-col s4">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="CSS/Images/PDA.jpg" style="width:80%; cursor:pointer"
+            onclick="currentDiv(5)">
         </div>
       </div>
     </div>
   </section>
-
+  <!-- Proyectos video ======================================================================================================== -->
+  <section id="P-V-container" data-aos="fade-up" data-aos-duration="1500">
+    <div id="Proyectos_audiovisuales_titulo" data-aos="fade-up" data-aos-duration="1500">
+      <h1>
+        Proyectos Audiovisuales
+      </h1>
+    </div>
+    <div id="Proyectos-video-fondo" class="container" data-aos="fade-up" data-aos-duration="1500">
+      <div class="card-deck">
+        <div class="card video-img">
+          <a href="Video/Catastro-fe.html" target="blank"><img class="card-img-top"
+              src="CSS/Images/Catastrofe-img-play.png"></a>
+          <div class="card-body">
+            <h2>Catastro-fe</h2>
+            <p class="card-text">"Catastro-fe" es el video clip oficial del tercer single de "manifestación
+              Verbal";
+              duo de RAP de Santiago.</p>
+          </div>
+        </div>
+        <div class="card video-img">
+          <a href="Video/El-Despertar.html" target="blank"><img class="card-img-top"
+              src="CSS/Images/el-despertarimg-play.png"></a>
+          <div class="card-body">
+            <h2>El Despertar</h2>
+            <p class="card-text">Trailer oficial del montaje teatral llamado "El Despertar" cuya temática
+              enfatiza la
+              gestión de los
+              recursos y una crítica hacia el consumismo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Contacto ======================================================================================================= -->
-  <section id="Contacto-fondo">
-    <div class="contacto">
-      <h1>CONTACTO</h1>
-      <p>Puedes escribirme a:</p>
-      <br>
-      <img src="CSS/Images/mail.png" width=10% alt=""> <a href="mailto:jedt_89@hotmail.com" target="_blank"
-        class="white mail">jedt_89@hotmail.com</a>
-      <br>
-      <br>
-      <img src="CSS/Images/telefono.png" width=9% alt="">
-      <img src="CSS/Images/whatsapp.png" width=10% alt="">
-      <p>+569 61832763</p>
-      <p>Visita mi Linkedin</p>
-      <a href="https://www.linkedin.com/in/jonathan-diaz-tobar-241572186" target="_blank"><img
-          src="CSS/Images/linkedin-logo.png" width=10% alt=""></a>
-      <h2>Descarga mi CV</h2>
-      <br>
-      <a href="CV/Curriculum-JD-2019.pdf" download="Jonathan-Diaz-CV" target="_blank"><input type="button"
-          class="btn btn-outline-danger" value="Descarga mi CV"></a>
+  <section id="Contacto-fondo" data-aos="fade-up" data-aos-duration="1500">
+    <div>
+      <h1>Contacto</h1>
+      <div class="contacto" data-aos="fade-up" data-aos-duration="1500">
+        <p>Puedes escribirme a:</p>
+        <br>
+        <img src="CSS/Images/mail.png" width=10% alt=""> <a href="mailto:jedt_89@hotmail.com" target="_blank"
+          class="white mail" style="font-size: 20px;">jedt_89@hotmail.com</a>
+        <br>
+        <br>
+        <img src="CSS/Images/telefono.png" width=9% alt="">
+        <img src="CSS/Images/whatsapp.png" width=10% alt="">
+        <h1>+569 61832763</h1>
+        <h1>Visita mi Linkedin</h1>
+        <a href="https://www.linkedin.com/in/jonathan-diaz-tobar-241572186" target="_blank"><img
+            src="CSS/Images/linkedin-logo.png" width=10% alt=""></a>
+        <h2>Descarga mi CV</h2>
+        <br>
+        <a href="CV/Curriculum-JD-2019.pdf" download="Jonathan-Diaz-CV" target="_blank"><input type="button"
+            class="btn btn-outline-danger" value="Descarga mi CV"></a>
+      </div>
     </div>
   </section>
 
@@ -240,14 +316,13 @@
           $('#navbarNav').hide('');
         }
       });
-
       $('#navbar-toggler').on('click', function () {
         $('#navbarNav').show('');
       });
     });
   </script>
 
- 
+
 </body>
 
 </html>

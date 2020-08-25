@@ -47,12 +47,6 @@ sr.reveal('.nav', {
   duration: 4000,
 });
 
-ScrollReveal().reveal('.nombre');
-window.sr = ScrollReveal();
-sr.reveal('.nombre', {
-  duration: 2000,
-});
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -62,3 +56,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+
+// script galería
+
+// MDB Lightbox Init
+$(function () {
+  $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+  });
