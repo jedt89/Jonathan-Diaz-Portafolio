@@ -2,7 +2,7 @@ import images from '../assets/img/index';
 import { motion } from 'framer-motion';
 
 const AboutMe = () => {
-  const { androidIcon, webDesignIcon, programmingIcon } = images;
+  const { androidIcon, webDesignIcon, programmingIcon, profilePhoto } = images;
   return (
     <>
       <motion.section
@@ -15,7 +15,7 @@ const AboutMe = () => {
       >
         <div className='aboutMeDescription'>
           <div className='aboutMeInfo'>
-            <img src='./src/assets/img/profile_photo.jpg' alt='Profile photo' />
+            <img src={profilePhoto} alt='Profile photo' style={{borderRadius: '0.5rem'}}/>
             <div className='aboutMeText'>
               <h4>Acerca de mí</h4>
               <p>

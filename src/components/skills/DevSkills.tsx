@@ -1,6 +1,16 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
+import images from '../../assets/img/index';
 
 const DevSkills = () => {
+  const {
+    htmlImg,
+    cssImg,
+    javascriptIcon,
+    typescriptIcon,
+    logoBootstrap,
+    angularIcon,
+    reactIcon
+  } = images;
   return (
     <motion.div
       className='skillSection'
@@ -12,25 +22,17 @@ const DevSkills = () => {
       <h4>Desarrollo de Software</h4>
       <div className='skills'>
         <div className='skill'>
-          <img
-            className='width-70'
-            src='./src/assets/img/html-img.png'
-            alt='Logo de tecnología'
-          />
+          <img className='width-70' src={htmlImg} alt='Logo de tecnología' />
           <label>HTML 5</label>
         </div>
         <div className='skill'>
-          <img
-            className='width-70'
-            src='./src/assets/img/css-img.png'
-            alt='Logo de tecnología'
-          />
+          <img className='width-70' src={cssImg} alt='Logo de tecnología' />
           <label>CSS 3</label>
         </div>
         <div className='skill'>
           <img
             className='width-70'
-            src='./src/assets/img/javascript-icon.png'
+            src={javascriptIcon}
             alt='Logo de tecnología'
           />
           <label>Javascript</label>
@@ -38,7 +40,7 @@ const DevSkills = () => {
         <div className='skill'>
           <img
             className='width-70'
-            src='./src/assets/img/typescript-icon.png'
+            src={typescriptIcon}
             alt='Logo de tecnología'
           />
           <label>Typescript</label>
@@ -46,7 +48,7 @@ const DevSkills = () => {
         <div className='skill'>
           <img
             className='width-70'
-            src='./src/assets/img/logo-bootstrap.png'
+            src={logoBootstrap}
             alt='Logo de tecnología'
           />
           <label>Bootstrap</label>
@@ -54,17 +56,13 @@ const DevSkills = () => {
         <div className='skill'>
           <img
             className='width-70'
-            src='./src/assets/img/angular-icon.png'
+            src={angularIcon}
             alt='Logo de tecnología'
           />
           <label>Angular</label>
         </div>
         <div className='skill'>
-          <img
-            className='width-70'
-            src='./src/assets/img/react-icon.png'
-            alt='Logo de tecnología'
-          />
+          <img className='width-70' src={reactIcon} alt='Logo de tecnología' />
           <label>React</label>
         </div>
       </div>

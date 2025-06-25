@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
+import images from '../../assets/img/index';
 
 const DesignSkills = () => {
+  const { photoshop, premiere, afterEffects, illustrator, audition } = images;
   return (
     <motion.div
       className='skillSection'
@@ -12,25 +14,17 @@ const DesignSkills = () => {
       <h4>Diseño gráfico</h4>
       <div className='skills'>
         <div className='skill'>
-          <img
-            className='width-70'
-            src='./src/assets/img/photoshop.png'
-            alt='Logo de tecnología'
-          />
+          <img className='width-70' src={photoshop} alt='Logo de tecnología' />
           <label>Photoshop</label>
         </div>
         <div className='skill'>
-          <img
-            className='width-70'
-            src='./src/assets/img/premiere.png'
-            alt='Logo de tecnología'
-          />
+          <img className='width-70' src={premiere} alt='Logo de tecnología' />
           <label>Premiere</label>
         </div>
         <div className='skill'>
           <img
             className='width-70'
-            src='./src/assets/img/after-effects.png'
+            src={afterEffects}
             alt='Logo de tecnología'
           />
           <label>After effects</label>
@@ -38,17 +32,13 @@ const DesignSkills = () => {
         <div className='skill'>
           <img
             className='width-70'
-            src='./src/assets/img/illustrator.png'
+            src={illustrator}
             alt='Logo de tecnología'
           />
           <label>Illustrator</label>
         </div>
         <div className='skill'>
-          <img
-            className='width-70'
-            src='./src/assets/img/audition.png'
-            alt='Logo de tecnología'
-          />
+          <img className='width-70' src={audition} alt='Logo de tecnología' />
           <label>Audition</label>
         </div>
       </div>
