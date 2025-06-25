@@ -5,7 +5,7 @@ const NavigationBar = () => {
     { id: 3, text: 'Skills', targetId: 'skills-section' },
     { id: 4, text: 'Experiencia', targetId: 'experience-section' },
     { id: 5, text: 'Formación', targetId: 'education-section' },
-    { id: 6, text: 'Contacto', targetId: 'aboutMe-section' }
+    { id: 6, text: 'Contacto', targetId: 'contact-section' }
   ];
 
   const scrollToSection = (id: string, duration = 1500) => {
