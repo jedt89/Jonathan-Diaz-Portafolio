@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import fullstackProjects from '../../projects/softwareDevelopmentProjectsData/fullStack';
+import fullstackProjects from '../../projects/softwareProjectsData/fullStack';
 import ProjectCard from '../ProjectCard';
 
 const FullStackProjects = () => {

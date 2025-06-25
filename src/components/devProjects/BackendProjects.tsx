@@ -1,5 +1,5 @@
 import ProjectCard from '../ProjectCard';
-import backendProjects from '../../projects/softwareDevelopmentProjectsData/backend';
+import backendProjects from '../../projects/softwareProjectsData/backend';
 import { motion } from 'framer-motion';
 
 const BackendProjects = () => {

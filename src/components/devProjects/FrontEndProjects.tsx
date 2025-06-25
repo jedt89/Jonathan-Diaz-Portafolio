@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import frontEndProjects from '../../projects/softwareDevelopmentProjectsData/frontEnd';
+import frontEndProjects from '../../projects/softwareProjectsData/frontEnd';
 import ProjectCard from '../ProjectCard';
 
 const FrontEndProjects = () => {
