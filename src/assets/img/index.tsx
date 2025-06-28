@@ -39,6 +39,7 @@ import codeIcon3 from './code_icon_3.png';
 import programmingIcon from './programming_icon.png';
 import webDesignIcon from './webdesign_icon.png';
 import androidIcon from './android_icon.png';
+import navBrand from './header_center_transparent.png';
 
 const images = {
   afterEffects,
@@ -81,7 +82,8 @@ const images = {
   programmingIcon,
   webDesignIcon,
   androidIcon,
-  codeIcon3
+  codeIcon3,
+  navBrand
 };
 
 export default images;

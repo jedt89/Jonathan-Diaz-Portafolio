@@ -59,7 +59,7 @@ const GraphicsProjects = () => {
           <Slider {...settings}>
             {Object.values(graphicsProjects).map((project) => {
               return (
-                <div className='p-4' style={{ height: '70vh !important', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                <div className='p-4 slider-img-cont'>
                   <img
                     className='sliderImg'
                     style={{
