@@ -25,7 +25,7 @@ const Contact = () => {
             <img className='width-50' src={mailIcon} alt='Mail icon' />
           </a>
         </div>
-        <a href='/public/CV_Jonathan_Diaz_2025_ATS.pdf' download>
+        <a href='/CV_Jonathan_Diaz_2025_ATS.pdf' download>
           <Button
             style={{ marginTop: '2rem' }}
             color='success'
