@@ -25,9 +25,17 @@ const Contact = () => {
             <img className='width-50' src={mailIcon} alt='Mail icon' />
           </a>
         </div>
-        <Button style={{marginTop: '2rem'}} color='success' variant='ghost' radius='full' size='lg'>
-          Descarga mi CV
-        </Button>
+        <a href='/public/CV_Jonathan_Diaz_2025_ATS.pdf' download>
+          <Button
+            style={{ marginTop: '2rem' }}
+            color='success'
+            variant='ghost'
+            radius='full'
+            size='lg'
+          >
+            Descarga mi CV
+          </Button>
+        </a>
       </section>
       <div className='divider'></div>
     </>

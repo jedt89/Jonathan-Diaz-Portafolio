@@ -18,7 +18,7 @@ const backendProjects = {
   myPrecious: {
     image: jewelHead,
     headDescription:
-      'API RESTful construida que gestiona productos para la tienda de joyas "My precious".',
+      'API RESTful construida Node.js y Express que gestiona productos para la tienda de joyas "My precious".',
     description:
       'API RESTful construida con Node.js y Express para una tienda ficticia de joyas llamada "My Precious". Gestiona productos y ofrece endpoints con filtrado, ordenamiento, paginación y formato HATEOAS. Con conexión a base de datos PostgreSQL y manejo de variables de entorno con dotenv.',
     title: 'My Precious',

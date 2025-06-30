@@ -31,9 +31,9 @@ const fullstackProjects = {
   workerTrack: {
     image: workerTrackHead,
     headDescription:
-      'Aplicación web para registro e inforamción de trabajadores.',
+      'Aplicación web para registro e información de trabajadores.',
     description:
-      'Aplicación web que permite registrar, editar y eliminar inforamción de trabajadores de una empresa, comunidad o colectivo.',
+      'Aplicación web que permite registrar, editar y eliminar información de trabajadores de una empresa, comunidad o colectivo.',
     title: 'Worker-Track',
     tech: [
       // Frontend
@@ -85,9 +85,9 @@ const fullstackProjects = {
   inventariusPro: {
     image: inventariusProhead,
     headDescription:
-      'Aplicación web para registro e inforamción de productos e inventario.',
+      'Aplicación web para registro e información de productos e inventario.',
     description:
-      'Aplicación web que permite registrar, editar y eliminar inforamción de productos, sus precios, cantidades e inventario.',
+      'Aplicación web que permite registrar, editar y eliminar información de productos, sus precios, cantidades e inventario.',
     title: 'Inventarius pro',
     tech: [
       // Frontend

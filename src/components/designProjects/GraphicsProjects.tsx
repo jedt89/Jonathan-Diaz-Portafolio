@@ -49,7 +49,7 @@ const GraphicsProjects = () => {
         <h2>Proyectos gráficos</h2>
         <motion.div
           className='mockupSliderContainer'
-          initial={{ opacity: 0, y: 200 }}
+          initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 1

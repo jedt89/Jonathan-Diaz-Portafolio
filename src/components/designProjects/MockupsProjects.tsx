@@ -12,7 +12,7 @@ const MockupsProjects = () => {
         <h2>Mockups</h2>
         <div className='projectsContainer'>
           {projects.map((project, index) => {
-            const initialX = index % 2 === 0 ? -100 : 100;
+            const initialX = index % 2 === 0 ? -50 : 50;
 
             return (
               <MotionMockupCard
