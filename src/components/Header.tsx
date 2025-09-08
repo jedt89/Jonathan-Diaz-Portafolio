@@ -5,8 +5,8 @@ const Header = () => {
     <header id='header-section' className='header-container'>
       <div>
         <motion.h1
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, y: -70 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 3,
             ease: 'easeInOut'
@@ -17,8 +17,8 @@ const Header = () => {
         </motion.h1>
         <motion.div
           className='header-image'
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 70 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 3,
             ease: 'easeInOut'
