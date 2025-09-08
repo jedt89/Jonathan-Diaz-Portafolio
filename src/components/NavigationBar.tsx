@@ -89,7 +89,7 @@ const NavigationBar = () => {
   return (
     <nav className='navigationBar'>
       <div>
-        <img src={navBrand} alt='' className='width-30' />
+        <img src={navBrand} alt='Jonathan Díaz' className='width-30 cursor-pointer' onClick={() => scrollToSection('header-section', 1500)}/>
       </div>
 
       {isMobile ? (
