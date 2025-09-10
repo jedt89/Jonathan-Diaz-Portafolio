@@ -10,7 +10,7 @@ const AboutMe = () => {
         className='aboutMe'
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.3, ease: 'easeInOut' }}
         viewport={{ once: false, amount: 0.1 }}
       >
         <div className='aboutMeDescription'>
@@ -33,7 +33,7 @@ const AboutMe = () => {
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.3, ease: 'easeInOut' }}
           viewport={{ once: false, amount: 0.1 }}
         >
           <img className='width-100' src={programmingIcon} alt='Programming' />
@@ -45,9 +45,9 @@ const AboutMe = () => {
           </p>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 50 }}
+          initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.3, ease: 'easeInOut' }}
           viewport={{ once: false, amount: 0.1 }}
         >
           <img className='width-100' src={androidIcon} alt='Android' />
@@ -62,7 +62,7 @@ const AboutMe = () => {
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.3, ease: 'easeInOut' }}
           viewport={{ once: false, amount: 0.1 }}
         >
           <img className='width-100' src={webDesignIcon} alt='Graphic design' />

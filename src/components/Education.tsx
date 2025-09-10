@@ -12,7 +12,7 @@ const Education = () => {
             className='ed-item'
             initial={{ opacity: 0, x: -50, y: 0 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
-            transition={{ duration: 1, delay: 0 }}
+            transition={{ duration: 0.3, ease: 'easeInOut', delay: 0 }}
             viewport={{ once: false, amount: 0.1 }}
           >
             <img
@@ -29,7 +29,7 @@ const Education = () => {
             className='ed-item'
             initial={{ opacity: 0, x: -50, y: 0 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
-            transition={{ duration: 1, delay: 0.5 }}
+            transition={{ duration: 0.3, ease: 'easeInOut', delay: 0.5 }}
             viewport={{ once: false, amount: 0.1 }}
           >
             <img
@@ -49,7 +49,7 @@ const Education = () => {
             className='ed-item'
             initial={{ opacity: 0, x: -50, y: 0 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
-            transition={{ duration: 1, delay: 1 }}
+            transition={{ duration: 0.3, ease: 'easeInOut', delay: 1 }}
             viewport={{ once: false, amount: 0.1 }}
           >
             <img
